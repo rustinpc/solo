@@ -18,27 +18,36 @@ Once the project moves into development, the press release can be used as a touc
  
 ## Heading ##
   > Name the product in a way the reader (i.e. your target customers) will understand.
+  BestShot
 
 ## Sub-Heading ##
   > Describe who the market for the product is and what benefit they get. One sentence only underneath the title.
+  People who take a lot of photos can quickly identify which photos are worth saving.
 
 ## Summary ##
   > Give a summary of the product and the benefit. Assume the reader will not read anything else so make this paragraph good.
+  People can upload a set of photos and vote on photo couplets to choose the best photos and ultimately know which photos are the best.
 
 ## Problem ##
   > Describe the problem your product solves.
+  People overwhelmed by the number of photos that they take when they want to share or use them to show other people.
 
 ## Solution ##
   > Describe how your product elegantly solves the problem.
+  Product lets the user and a group of friends they want to weigh in compare photos and vote the best to to the top and the worst down so that they end up with a ranked list.
 
 ## Quote from You ##
   > A quote from a spokesperson in your company.
+  "We're pleased that BestShot can help our users connect with their friends and family by sharing the best moments of their lives with each other."
 
 ## How to Get Started ##
   > Describe how easy it is to get started.
+  Just upload your photos, share the link, and get voting!
 
 ## Customer Quote ##
   > Provide a quote from a hypothetical customer that describes how they experienced the benefit.
+  "When our wedding photographer gave us hundreds of photos I was overwhelmed trying to find my favorites. Thank you BestShot for making it easy to find the best photos from my wedding!"
 
 ## Closing and Call to Action ##
   > Wrap it up and give pointers where the reader should go next.
+  Try BestShot with your photos now!
