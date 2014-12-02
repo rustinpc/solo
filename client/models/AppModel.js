@@ -1,7 +1,9 @@
 var AppModel = Backbone.Model.extend({
 
   initialize: function(params){
-    this.set('status', 'voting');
+    this.set('queue', this.get('photos'));
+
+    console.log(this.get('queue')[0].attributes);
     // this.set('songQueue', new SongQueue());
 
 

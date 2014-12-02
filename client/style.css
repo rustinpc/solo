@@ -2,6 +2,11 @@ body {
   margin-top:40px;
 }
 
+.photos-list .photo {
+  float: none;
+  width: 100px;
+}
+
 .photo {
   float: left;
   width: 200px;

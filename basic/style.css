@@ -1,0 +1,12 @@
+body {
+  margin-top:40px;
+}
+
+.single-photo {
+  width: 300px;
+}
+
+.photo {
+  /*float: left;*/
+  width: 300px;
+}
