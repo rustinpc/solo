@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+<body>
+  <script src="../bower_components/jquery/jquery.min.js"></script>
+  <script src="../bower_components/underscore/underscore.js"></script>
+  <script src="../bower_components/backbone/backbone.js"></script>
+
+  <script src="models/PhotoModel.js"></script>
+  <script src="views/PhotoView.js"></script>
+  <script src="views/AppView.js"></script>
+  <script src="views/PhotosView.js"></script>
+  <script src="models/AppModel.js"></script>
+  <script src="collections/Photos.js"></script>
+  <h2>Vote:</h2>
+  <script src="../server/voting.js"></script>
+  <script>
+      $(function(){
+        // set up model objects
+        var photos = new Photos([{url: "http://upload.wikimedia.org/wikipedia/commons/2/22/Turkish_Van_Cat.jpg"},{url: "http://aplusanimalhospital.com/wp-content/uploads/2013/08/projectcat.jpg"}]);
+        var app = new AppModel({photos: photos});
+
+        // build a view for the top level of the whole app
+        // var photoView = new PhotoView({model: photo});
+        var appView = new AppView({model: app});
+
+        // put the view onto the screen
+        $('body').append(appView.render());
+      });
+    </script>
+</body>
+</html>
