@@ -7,11 +7,25 @@ a {
   color: #00B7FF;
 }
 
+.winner {
+  border: 5px solid blue;
+}
+
 .single-photo {
   width: 300px;
+  margin-bottom: 20px;
 }
 
 .photo {
-  /*float: left;*/
+  display: list-item;
   width: 300px;
+  margin-bottom: 20px;
+}
+
+.photo1 {
+  margin-right: 20px;
+}
+
+.photo1, .photo2 {
+  float: left;
 }
